@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143446512083652400C10394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446502083652400C10394 /* AppDelegate.swift */; };
+		143446532083652400C10394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446522083652400C10394 /* ViewController.swift */; };
+		143446562083652400C10394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143446542083652400C10394 /* Main.storyboard */; };
+		143446592083652400C10394 /* Barangaroo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 143446572083652400C10394 /* Barangaroo.xcdatamodeld */; };
+		1434465B2083652500C10394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1434465A2083652500C10394 /* Assets.xcassets */; };
+		1434465E2083652500C10394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1434465C2083652500C10394 /* LaunchScreen.storyboard */; };
+		143446692083652500C10394 /* BarangarooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446682083652500C10394 /* BarangarooTests.swift */; };
+		143446742083652500C10394 /* BarangarooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446732083652500C10394 /* BarangarooUITests.swift */; };
+		9233578CB0CD08C4A5255DA1 /* Pods_Barangaroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A79030EE83C385561AFB35 /* Pods_Barangaroo.framework */; };
+		924619014D1BDD05DBD98D7C /* Pods_BarangarooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */; };
+		B2C105DF49C663B4C0681819 /* Pods_BarangarooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872C8CBE51B0F3082DE79FD6 /* Pods_BarangarooUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143446652083652500C10394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143446452083652400C10394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1434464C2083652400C10394;
+			remoteInfo = Barangaroo;
+		};
+		143446702083652500C10394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143446452083652400C10394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1434464C2083652400C10394;
+			remoteInfo = Barangaroo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1434464D2083652400C10394 /* Barangaroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barangaroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143446502083652400C10394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143446522083652400C10394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143446552083652400C10394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143446582083652400C10394 /* Barangaroo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barangaroo.xcdatamodel; sourceTree = "<group>"; };
+		1434465A2083652500C10394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1434465D2083652500C10394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1434465F2083652500C10394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143446642083652500C10394 /* BarangarooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarangarooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143446682083652500C10394 /* BarangarooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangarooTests.swift; sourceTree = "<group>"; };
+		1434466A2083652500C10394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1434466F2083652500C10394 /* BarangarooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarangarooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143446732083652500C10394 /* BarangarooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangarooUITests.swift; sourceTree = "<group>"; };
+		143446752083652500C10394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barangaroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo.release.xcconfig"; sourceTree = "<group>"; };
+		6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarangarooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791E7CD457FC69394A6D990B /* Pods-BarangarooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		872C8CBE51B0F3082DE79FD6 /* Pods_BarangarooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarangarooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2368035A9D4047078EC6D0A /* Pods-BarangarooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D1F43C0F4B95FACED36A08 /* Pods-BarangarooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooTests/Pods-BarangarooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E42F83E1DFD55B47BD678B56 /* Pods-Barangaroo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barangaroo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A79030EE83C385561AFB35 /* Pods_Barangaroo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barangaroo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE21CF783728A517126B93E /* Pods-BarangarooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooTests/Pods-BarangarooTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1434464A2083652400C10394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9233578CB0CD08C4A5255DA1 /* Pods_Barangaroo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143446612083652500C10394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924619014D1BDD05DBD98D7C /* Pods_BarangarooTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1434466C2083652500C10394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C105DF49C663B4C0681819 /* Pods_BarangarooUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143446442083652400C10394 = {
+			isa = PBXGroup;
+			children = (
+				1434464F2083652400C10394 /* Barangaroo */,
+				143446672083652500C10394 /* BarangarooTests */,
+				143446722083652500C10394 /* BarangarooUITests */,
+				1434464E2083652400C10394 /* Products */,
+				ABA7C45ECA53F2AD3EB89042 /* Pods */,
+				C815335AF0433167CE2626FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1434464E2083652400C10394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1434464D2083652400C10394 /* Barangaroo.app */,
+				143446642083652500C10394 /* BarangarooTests.xctest */,
+				1434466F2083652500C10394 /* BarangarooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1434464F2083652400C10394 /* Barangaroo */ = {
+			isa = PBXGroup;
+			children = (
+				143446502083652400C10394 /* AppDelegate.swift */,
+				143446522083652400C10394 /* ViewController.swift */,
+				143446542083652400C10394 /* Main.storyboard */,
+				1434465A2083652500C10394 /* Assets.xcassets */,
+				1434465C2083652500C10394 /* LaunchScreen.storyboard */,
+				1434465F2083652500C10394 /* Info.plist */,
+				143446572083652400C10394 /* Barangaroo.xcdatamodeld */,
+			);
+			path = Barangaroo;
+			sourceTree = "<group>";
+		};
+		143446672083652500C10394 /* BarangarooTests */ = {
+			isa = PBXGroup;
+			children = (
+				143446682083652500C10394 /* BarangarooTests.swift */,
+				1434466A2083652500C10394 /* Info.plist */,
+			);
+			path = BarangarooTests;
+			sourceTree = "<group>";
+		};
+		143446722083652500C10394 /* BarangarooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143446732083652500C10394 /* BarangarooUITests.swift */,
+				143446752083652500C10394 /* Info.plist */,
+			);
+			path = BarangarooUITests;
+			sourceTree = "<group>";
+		};
+		ABA7C45ECA53F2AD3EB89042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E42F83E1DFD55B47BD678B56 /* Pods-Barangaroo.debug.xcconfig */,
+				24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */,
+				E1D1F43C0F4B95FACED36A08 /* Pods-BarangarooTests.debug.xcconfig */,
+				FDE21CF783728A517126B93E /* Pods-BarangarooTests.release.xcconfig */,
+				A2368035A9D4047078EC6D0A /* Pods-BarangarooUITests.debug.xcconfig */,
+				791E7CD457FC69394A6D990B /* Pods-BarangarooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C815335AF0433167CE2626FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A79030EE83C385561AFB35 /* Pods_Barangaroo.framework */,
+				6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */,
+				872C8CBE51B0F3082DE79FD6 /* Pods_BarangarooUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1434464C2083652400C10394 /* Barangaroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143446782083652500C10394 /* Build configuration list for PBXNativeTarget "Barangaroo" */;
+			buildPhases = (
+				F5B08E50D9E218475A4461D0 /* [CP] Check Pods Manifest.lock */,
+				143446492083652400C10394 /* Sources */,
+				1434464A2083652400C10394 /* Frameworks */,
+				1434464B2083652400C10394 /* Resources */,
+				2053D773317E1BBF9B34FA3C /* [CP] Embed Pods Frameworks */,
+				19E8029FF462259CC7B84997 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barangaroo;
+			productName = Barangaroo;
+			productReference = 1434464D2083652400C10394 /* Barangaroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143446632083652500C10394 /* BarangarooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1434467B2083652500C10394 /* Build configuration list for PBXNativeTarget "BarangarooTests" */;
+			buildPhases = (
+				F4F1FA77BD449A749D4EF022 /* [CP] Check Pods Manifest.lock */,
+				143446602083652500C10394 /* Sources */,
+				143446612083652500C10394 /* Frameworks */,
+				143446622083652500C10394 /* Resources */,
+				907CF44EAE84550DA6DCDC6E /* [CP] Embed Pods Frameworks */,
+				4951B85610007C1D50A99A1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143446662083652500C10394 /* PBXTargetDependency */,
+			);
+			name = BarangarooTests;
+			productName = BarangarooTests;
+			productReference = 143446642083652500C10394 /* BarangarooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1434466E2083652500C10394 /* BarangarooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1434467E2083652500C10394 /* Build configuration list for PBXNativeTarget "BarangarooUITests" */;
+			buildPhases = (
+				A30D353D36398FE362BABE46 /* [CP] Check Pods Manifest.lock */,
+				1434466B2083652500C10394 /* Sources */,
+				1434466C2083652500C10394 /* Frameworks */,
+				1434466D2083652500C10394 /* Resources */,
+				C94A93398C964BEA7BFD30D0 /* [CP] Embed Pods Frameworks */,
+				5C4E772A8C91335F457EFB35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143446712083652500C10394 /* PBXTargetDependency */,
+			);
+			name = BarangarooUITests;
+			productName = BarangarooUITests;
+			productReference = 1434466F2083652500C10394 /* BarangarooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143446452083652400C10394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Katherine Pe";
+				TargetAttributes = {
+					1434464C2083652400C10394 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					143446632083652500C10394 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1434464C2083652400C10394;
+					};
+					1434466E2083652500C10394 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1434464C2083652400C10394;
+					};
+				};
+			};
+			buildConfigurationList = 143446482083652400C10394 /* Build configuration list for PBXProject "Barangaroo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143446442083652400C10394;
+			productRefGroup = 1434464E2083652400C10394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1434464C2083652400C10394 /* Barangaroo */,
+				143446632083652500C10394 /* BarangarooTests */,
+				1434466E2083652500C10394 /* BarangarooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1434464B2083652400C10394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1434465E2083652500C10394 /* LaunchScreen.storyboard in Resources */,
+				1434465B2083652500C10394 /* Assets.xcassets in Resources */,
+				143446562083652400C10394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143446622083652500C10394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1434466D2083652500C10394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E8029FF462259CC7B84997 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2053D773317E1BBF9B34FA3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4951B85610007C1D50A99A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarangarooTests/Pods-BarangarooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4E772A8C91335F457EFB35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907CF44EAE84550DA6DCDC6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarangarooTests/Pods-BarangarooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30D353D36398FE362BABE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarangarooUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94A93398C964BEA7BFD30D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F1FA77BD449A749D4EF022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarangarooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B08E50D9E218475A4461D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barangaroo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143446492083652400C10394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143446592083652400C10394 /* Barangaroo.xcdatamodeld in Sources */,
+				143446532083652400C10394 /* ViewController.swift in Sources */,
+				143446512083652400C10394 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143446602083652500C10394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143446692083652500C10394 /* BarangarooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1434466B2083652500C10394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143446742083652500C10394 /* BarangarooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143446662083652500C10394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1434464C2083652400C10394 /* Barangaroo */;
+			targetProxy = 143446652083652500C10394 /* PBXContainerItemProxy */;
+		};
+		143446712083652500C10394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1434464C2083652400C10394 /* Barangaroo */;
+			targetProxy = 143446702083652500C10394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143446542083652400C10394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143446552083652400C10394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1434465C2083652500C10394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1434465D2083652500C10394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143446762083652500C10394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		143446772083652500C10394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143446792083652500C10394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42F83E1DFD55B47BD678B56 /* Pods-Barangaroo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Barangaroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1434467A2083652500C10394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Barangaroo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1434467C2083652500C10394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D1F43C0F4B95FACED36A08 /* Pods-BarangarooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33A6793WA;
+				INFOPLIST_FILE = BarangarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barangaroo.app/Barangaroo";
+			};
+			name = Debug;
+		};
+		1434467D2083652500C10394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE21CF783728A517126B93E /* Pods-BarangarooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33A6793WA;
+				INFOPLIST_FILE = BarangarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barangaroo.app/Barangaroo";
+			};
+			name = Release;
+		};
+		1434467F2083652500C10394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2368035A9D4047078EC6D0A /* Pods-BarangarooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33A6793WA;
+				INFOPLIST_FILE = BarangarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barangaroo;
+			};
+			name = Debug;
+		};
+		143446802083652500C10394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791E7CD457FC69394A6D990B /* Pods-BarangarooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33A6793WA;
+				INFOPLIST_FILE = BarangarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barangaroo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143446482083652400C10394 /* Build configuration list for PBXProject "Barangaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143446762083652500C10394 /* Debug */,
+				143446772083652500C10394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143446782083652500C10394 /* Build configuration list for PBXNativeTarget "Barangaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143446792083652500C10394 /* Debug */,
+				1434467A2083652500C10394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1434467B2083652500C10394 /* Build configuration list for PBXNativeTarget "BarangarooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1434467C2083652500C10394 /* Debug */,
+				1434467D2083652500C10394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1434467E2083652500C10394 /* Build configuration list for PBXNativeTarget "BarangarooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1434467F2083652500C10394 /* Debug */,
+				143446802083652500C10394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		143446572083652400C10394 /* Barangaroo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				143446582083652400C10394 /* Barangaroo.xcdatamodel */,
+			);
+			currentVersion = 143446582083652400C10394 /* Barangaroo.xcdatamodel */;
+			path = Barangaroo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 143446452083652400C10394 /* Project object */;
+}
