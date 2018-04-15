@@ -6,7 +6,7 @@ target 'Barangaroo' do
   use_frameworks!
 
   # Pods for Barangaroo
-  pod 'Mapbox-iOS-SDK', '~> 3.7'
+  pod 'Mapbox-iOS-SDK', '~> 3.7.6'
 
   target 'BarangarooTests' do
     inherit! :search_paths
