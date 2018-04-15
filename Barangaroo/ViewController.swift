@@ -1,6 +1,10 @@
 //
 //  ViewController.swift
 //  Barangaroo
+//  This project shows data about Barangaroo, NSW, Australia
+//
+//  I currently work for a GIS company based in Barangaroo
+//  Just testing out GIS and finishing requirements for the iOS App Design and Development Course
 //
 //  Created by Katherine Pe on 15/4/18.
 //  Copyright © 2018 Katherine Pe. All rights reserved.
