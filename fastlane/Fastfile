@@ -9,13 +9,15 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
+identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+
 default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
   lane :beta do
-    get_certificates           # invokes cert
-    get_provisioning_profile   # invokes sigh
+    get_certificates
+    get_provisioning_profile
     build_app
   end
 end

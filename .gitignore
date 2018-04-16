@@ -105,3 +105,6 @@ Pods/
 # You don't want this on the repo
 *.cer
 *.mobileprovision
+*.cert*
+*.p12
+

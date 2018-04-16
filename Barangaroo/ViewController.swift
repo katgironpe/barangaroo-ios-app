@@ -3,8 +3,8 @@
 //  Barangaroo
 //  This project shows data about Barangaroo, NSW, Australia
 //
-//  I currently work for a GIS company based in Barangaroo
-//  Just testing out Mapbox and finishing requirements for the iOS App Design and Development Course
+//  I currently work for a GIS company based in Barangaroo, and this is the simplest app I could think of
+//  It reads data from this API: https://api.myjson.com/bins/7wkfr
 //
 //  Created by Katherine Pe on 15/4/18.
 //  Copyright © 2018 Katherine Pe. All rights reserved.
@@ -79,6 +79,7 @@ class ViewController: UIViewController, MGLMapViewDelegate {
 
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let controller = storyboard.instantiateViewController(withIdentifier: "InfoView")
+    
     self.present(controller, animated: true, completion: nil)
   }
 }

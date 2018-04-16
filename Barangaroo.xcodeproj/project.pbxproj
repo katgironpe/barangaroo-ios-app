@@ -636,18 +636,19 @@
 			baseConfigurationReference = E42F83E1DFD55B47BD678B56 /* Pods-Barangaroo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QYWAP2B888;
 				INFOPLIST_FILE = Barangaroo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0e109446-b77f-43de-9082-67f3f7bc63c1";
-				PROVISIONING_PROFILE_SPECIFIER = "com.autodidact.torontouni AppStore";
+				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
+				PROVISIONING_PROFILE_SPECIFIER = com.autodidact.torontouni.development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -658,18 +659,19 @@
 			baseConfigurationReference = 24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QYWAP2B888;
 				INFOPLIST_FILE = Barangaroo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0e109446-b77f-43de-9082-67f3f7bc63c1";
-				PROVISIONING_PROFILE_SPECIFIER = "com.autodidact.torontouni AppStore";
+				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
+				PROVISIONING_PROFILE_SPECIFIER = com.autodidact.torontouni.development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
