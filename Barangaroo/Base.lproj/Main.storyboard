@@ -32,13 +32,25 @@
                     <view key="view" contentMode="scaleToFill" id="FWa-J5-NhW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUj-Rl-mQn">
+                                <rect key="frame" x="151" y="597" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="VIEW MAP">
+                                    <color key="titleColor" red="0.99197656125326705" green="0.99945365506705408" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="69W-Bp-J6h"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.097918767582374389" green="0.1590633095854922" blue="0.13816426294201653" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6ij-lc-e67"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQI-DB-qeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055.2" y="91.304347826086968"/>
+            <point key="canvasLocation" x="1073" y="91"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bb2-UD-JAw">
