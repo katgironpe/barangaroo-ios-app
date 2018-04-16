@@ -25,32 +25,60 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="91.304347826086968"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="nwU-rg-vug">
             <objects>
-                <viewController storyboardIdentifier="InfoView" id="MJy-zq-MEB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoView" id="MJy-zq-MEB" customClass="DetailsViewController" customModule="Barangaroo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FWa-J5-NhW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUj-Rl-mQn">
-                                <rect key="frame" x="151" y="597" width="73" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="VIEW MAP">
-                                    <color key="titleColor" red="0.99197656125326705" green="0.99945365506705408" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="69W-Bp-J6h"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cc4-kH-pt6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ml9-BJ-DiT">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="707"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxz-JI-Mtb">
+                                        <rect key="frame" x="40" y="50" width="95" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="VIEW MAP">
+                                            <color key="titleColor" red="0.93487549387900448" green="0.99927214065529668" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="psf-uS-eDk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ml9-BJ-DiT" secondAttribute="trailing" id="JhD-CO-Lvj"/>
+                                    <constraint firstItem="ml9-BJ-DiT" firstAttribute="top" secondItem="Cc4-kH-pt6" secondAttribute="top" id="fTf-Bw-Upy"/>
+                                    <constraint firstItem="ml9-BJ-DiT" firstAttribute="leading" secondItem="Cc4-kH-pt6" secondAttribute="leading" id="fpv-dJ-Ubk"/>
+                                    <constraint firstAttribute="bottom" secondItem="ml9-BJ-DiT" secondAttribute="bottom" id="ilI-bY-fwE"/>
+                                    <constraint firstAttribute="trailing" secondItem="ml9-BJ-DiT" secondAttribute="trailing" id="kIg-8a-TG5"/>
+                                    <constraint firstAttribute="bottom" secondItem="ml9-BJ-DiT" secondAttribute="bottom" id="snd-WY-8GV"/>
+                                    <constraint firstItem="ml9-BJ-DiT" firstAttribute="leading" secondItem="Cc4-kH-pt6" secondAttribute="leading" id="udE-oF-XAa"/>
+                                    <constraint firstItem="ml9-BJ-DiT" firstAttribute="top" secondItem="Cc4-kH-pt6" secondAttribute="top" id="w0V-lZ-xtW"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.097918767582374389" green="0.1590633095854922" blue="0.13816426294201653" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cc4-kH-pt6" secondAttribute="trailing" id="0ED-ar-Kel"/>
+                            <constraint firstAttribute="bottom" secondItem="Cc4-kH-pt6" secondAttribute="bottom" id="SaD-HX-J55"/>
+                            <constraint firstItem="Cc4-kH-pt6" firstAttribute="leading" secondItem="FWa-J5-NhW" secondAttribute="leading" id="Ubr-El-2AH"/>
+                            <constraint firstItem="Cc4-kH-pt6" firstAttribute="top" secondItem="FWa-J5-NhW" secondAttribute="top" id="qIv-zT-06d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6ij-lc-e67"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="ml9-BJ-DiT" id="xNg-M9-bvl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQI-DB-qeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1073" y="91"/>
+            <point key="canvasLocation" x="1072.8" y="90.404797601199405"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bb2-UD-JAw">
