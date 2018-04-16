@@ -107,4 +107,4 @@ Pods/
 *.mobileprovision
 *.cert*
 *.p12
-
+fastlane/report.xml
