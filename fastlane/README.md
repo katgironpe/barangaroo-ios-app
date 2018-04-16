@@ -16,11 +16,11 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios beta
+### ios profiles
 ```
-fastlane ios beta
+fastlane ios profiles
 ```
-Description of what the lane does
+Get profiles
 
 ----
 

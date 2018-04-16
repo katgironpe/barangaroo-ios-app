@@ -14,10 +14,9 @@ identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :beta do
+  desc "Get profiles"
+  lane :profiles do
     get_certificates
     get_provisioning_profile
-    build_app
   end
 end
