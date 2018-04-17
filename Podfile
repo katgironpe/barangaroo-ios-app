@@ -7,6 +7,7 @@ target 'Barangaroo' do
 
   # Pods for Barangaroo
   pod 'Mapbox-iOS-SDK', '~> 3.7.6'
+  pod 'SwiftyJSON', '~> 4.0'
 
   target 'BarangarooTests' do
     inherit! :search_paths

@@ -1,12 +1,15 @@
 PODS:
   - Mapbox-iOS-SDK (3.7.6)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Mapbox-iOS-SDK (~> 3.7.6)
+  - SwiftyJSON (~> 4.0)
 
 SPEC CHECKSUMS:
   Mapbox-iOS-SDK: 23ececda1d90c3b436b45e2c88e9677f025303c0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 570bdd2a94eaee1f8f50a064069a483327d0ad58
+PODFILE CHECKSUM: 8f2d0f3fc4e13cd047cfa4e70bc6d1cbe16ebb36
 
 COCOAPODS: 1.4.0

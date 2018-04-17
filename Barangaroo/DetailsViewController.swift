@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import SwiftyJSON
+
 
 class DetailsViewController: UIViewController {
   @IBOutlet weak var imageView: UIImageView!
@@ -51,16 +53,17 @@ class DetailsViewController: UIViewController {
             return
           }
           
-          guard let jsonData = (try? JSONSerialization.jsonObject(with: content, options: JSONSerialization.ReadingOptions.mutableContainers)) as? [String: Any] else {
+          guard let jsonData = (try? JSON(data: content)) else {
             print("No JSON data")
             return
           }
           
-          if let placeDescription = jsonData["description"] as? [String] {
+          if let placeDescription = jsonData["description"].string {
             bInfo.setValue(placeDescription, forKey: "text")
           }
           
-          if let link = jsonData["barangaroo"] as? [String] {
+          if let link = jsonData["barangaroo"].string {
+            print("LINK", link)
             bInfo.setValue(link, forKey: "link")
           }
           
@@ -82,7 +85,7 @@ class DetailsViewController: UIViewController {
       let result = try context.fetch(request)
       
       for data in result as! [NSManagedObject] {
-        // print("DATA", data)
+        print("DATA", data)
       }
     } catch {
       print("Failed to retrieve image")
