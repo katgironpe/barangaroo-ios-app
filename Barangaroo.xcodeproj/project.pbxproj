@@ -16,6 +16,7 @@
 		1434465E2083652500C10394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1434465C2083652500C10394 /* LaunchScreen.storyboard */; };
 		143446692083652500C10394 /* BarangarooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446682083652500C10394 /* BarangarooTests.swift */; };
 		143446742083652500C10394 /* BarangarooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143446732083652500C10394 /* BarangarooUITests.swift */; };
+		1447212E208622E800D2645B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1447212D208622E800D2645B /* InfoViewController.swift */; };
 		9233578CB0CD08C4A5255DA1 /* Pods_Barangaroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A79030EE83C385561AFB35 /* Pods_Barangaroo.framework */; };
 		924619014D1BDD05DBD98D7C /* Pods_BarangarooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */; };
 		B2C105DF49C663B4C0681819 /* Pods_BarangarooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872C8CBE51B0F3082DE79FD6 /* Pods_BarangarooUITests.framework */; };
@@ -54,6 +55,7 @@
 		1434466F2083652500C10394 /* BarangarooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarangarooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143446732083652500C10394 /* BarangarooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangarooUITests.swift; sourceTree = "<group>"; };
 		143446752083652500C10394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1447212D208622E800D2645B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barangaroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo.release.xcconfig"; sourceTree = "<group>"; };
 		6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarangarooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		791E7CD457FC69394A6D990B /* Pods-BarangarooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				1434465F2083652500C10394 /* Info.plist */,
 				143446572083652400C10394 /* Barangaroo.xcdatamodeld */,
 				142039142084BBA5005B8EF3 /* DetailsViewController.swift */,
+				1447212D208622E800D2645B /* InfoViewController.swift */,
 			);
 			path = Barangaroo;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				143446532083652400C10394 /* ViewController.swift in Sources */,
 				143446512083652400C10394 /* AppDelegate.swift in Sources */,
 				142039152084BBA5005B8EF3 /* DetailsViewController.swift in Sources */,
+				1447212E208622E800D2645B /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +651,10 @@
 				DEVELOPMENT_TEAM = QYWAP2B888;
 				INFOPLIST_FILE = Barangaroo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
@@ -667,7 +674,10 @@
 				DEVELOPMENT_TEAM = QYWAP2B888;
 				INFOPLIST_FILE = Barangaroo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
@@ -686,7 +696,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C33A6793WA;
 				INFOPLIST_FILE = BarangarooTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -704,7 +718,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C33A6793WA;
 				INFOPLIST_FILE = BarangarooTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -721,7 +739,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C33A6793WA;
 				INFOPLIST_FILE = BarangarooUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -738,7 +760,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C33A6793WA;
 				INFOPLIST_FILE = BarangarooUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodidact.torontouni.BarangarooUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
