@@ -72,13 +72,5 @@ class ViewController: UIViewController, MGLMapViewDelegate {
   func mapView(_ mapView: MGLMapView, annotation: MGLAnnotation, calloutAccessoryControlTapped control: UIControl) {
     // Hide the callout view.
     mapView.deselectAnnotation(annotation, animated: false)
-   
-    // Show the info view
-    // This has an image and description of Barangaroo
-
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let controller = storyboard.instantiateViewController(withIdentifier: "InfoView")
-    
-    self.present(controller, animated: true, completion: nil)
   }
 }

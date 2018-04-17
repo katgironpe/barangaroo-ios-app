@@ -101,7 +101,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wep-d4-2He"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Image" id="5Ae-3W-Iq7"/>
+                    <tabBarItem key="tabBarItem" title="Image" image="ImageIcon" id="5Ae-3W-Iq7"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="aru-61-qzJ" id="vcX-fL-bvr"/>
@@ -113,6 +113,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ImageIcon" width="50" height="50"/>
         <image name="MapIcon" width="50" height="50"/>
     </resources>
 </document>
