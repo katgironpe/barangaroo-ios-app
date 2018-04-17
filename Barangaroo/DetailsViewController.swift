@@ -22,8 +22,6 @@ class DetailsViewController: UIViewController {
     let entity = NSEntityDescription.entity(forEntityName: "BarangarooInfo", in: context)
     let bInfo = NSManagedObject(entity: entity!, insertInto: context)
     
-    bInfo.setValue("foobar", forKey: "text")
-    
     do {
       let sharedSession = URLSession.shared
       
@@ -65,6 +63,7 @@ class DetailsViewController: UIViewController {
           if let link = jsonData["barangaroo"] as? [String] {
             bInfo.setValue(link, forKey: "link")
           }
+          
         })
         
         dataTask.resume()
@@ -83,7 +82,7 @@ class DetailsViewController: UIViewController {
       let result = try context.fetch(request)
       
       for data in result as! [NSManagedObject] {
-        print("DATA", data)
+        // print("DATA", data)
       }
     } catch {
       print("Failed to retrieve image")
