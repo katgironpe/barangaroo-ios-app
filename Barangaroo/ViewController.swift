@@ -37,7 +37,7 @@ class ViewController: UIViewController, MGLMapViewDelegate {
     let annotation = MGLPointAnnotation()
     annotation.coordinate = CLLocationCoordinate2D(latitude: -33.8627536, longitude: 151.2005588)
     annotation.title = "Barangaroo"
-    annotation.subtitle = "\(annotation.coordinate.latitude), \(annotation.coordinate.longitude)"
+    annotation.subtitle = "NSW, Australia"
     
     mapView.addAnnotation(annotation)
     
@@ -55,10 +55,9 @@ class ViewController: UIViewController, MGLMapViewDelegate {
   func mapView(_ mapView: MGLMapView, leftCalloutAccessoryViewFor annotation: MGLAnnotation) -> UIView? {
     if (annotation.title! == "Barangaroo") {
       // Callout height is fixed; width expands to fit its content.
-      let label = UILabel(frame: CGRect(x: 0, y: 0, width: 60, height: 50))
-      label.textAlignment = .right
+      let label = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+      label.textAlignment = .center
       label.textColor = UIColor(red: 0.81, green: 0.71, blue: 0.23, alpha: 1)
-      label.text = "NSW, Australia"
       
       return label
     }
