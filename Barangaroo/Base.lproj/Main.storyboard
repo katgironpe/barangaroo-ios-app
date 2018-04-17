@@ -38,7 +38,7 @@
                         <color key="backgroundColor" red="1" green="0.49655969504905018" blue="0.45178830022953975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Ach-1g-bNf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" id="88S-lw-fYR"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="InfoIcon" id="88S-lw-fYR"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yir-LK-C4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -114,6 +114,7 @@
     </scenes>
     <resources>
         <image name="ImageIcon" width="50" height="50"/>
+        <image name="InfoIcon" width="50" height="50"/>
         <image name="MapIcon" width="50" height="50"/>
     </resources>
 </document>
