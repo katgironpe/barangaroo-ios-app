@@ -55,7 +55,7 @@
 		1434466F2083652500C10394 /* BarangarooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarangarooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143446732083652500C10394 /* BarangarooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangarooUITests.swift; sourceTree = "<group>"; };
 		143446752083652500C10394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1447212D208622E800D2645B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		1447212D208622E800D2645B /* InfoViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		24A01EBEA1FF04C8641ACBA2 /* Pods-Barangaroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barangaroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barangaroo/Pods-Barangaroo.release.xcconfig"; sourceTree = "<group>"; };
 		6761486A1B8893FCB3DEA75E /* Pods_BarangarooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarangarooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		791E7CD457FC69394A6D990B /* Pods-BarangarooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarangarooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarangarooUITests/Pods-BarangarooUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -659,6 +659,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
 				PROVISIONING_PROFILE_SPECIFIER = com.autodidact.torontouni.development;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -682,6 +683,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6184fe35-f8d2-46a7-a4de-6c8fa31e5464";
 				PROVISIONING_PROFILE_SPECIFIER = com.autodidact.torontouni.development;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
